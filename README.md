@@ -37,6 +37,7 @@ Part 2: Frontend Setup
 2.Install frontend dependencies:
    ```bash
    npm i
+
 3. Start the frontend:
   ```bash
   npm start
