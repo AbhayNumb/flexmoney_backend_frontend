@@ -52,7 +52,7 @@ YouTube Demo: [FlexMoney Enrollment System Demo](https://www.youtube.com/watch?v
 
 ### User Table
 
-```bash
+```sql
 CREATE TABLE user_table (
   user_id SERIAL PRIMARY KEY,
   name VARCHAR(255) NOT NULL,
@@ -62,16 +62,4 @@ CREATE TABLE user_table (
   month VARCHAR(20) NOT NULL,
   year VARCHAR(20) NOT NULL
 );
-
-### User Table
-Payment Table
-CREATE TABLE payment_table (
-  payment_id SERIAL PRIMARY KEY,
-  user_id INT REFERENCES user_table(user_id),
-  payment_amount DECIMAL(10, 2) NOT NULL,
-  payment_date DATE NOT NULL
-);
-Part 5: ER Diagram
-## ER Diagram
-![ER Diagram](https://github.com/AbhayNumb/flexmoney_backend_frontend/assets/90024961/e7116bc3-085b-4e58-af9f-bf8015801f72)
 
