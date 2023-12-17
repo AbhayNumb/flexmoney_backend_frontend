@@ -1,5 +1,5 @@
 ### Part 1: Backend Setup
-# FlexMoney Enrollment System
+# FlexMoney Assignment Enrollment System
 
 ## Backend Setup
 
