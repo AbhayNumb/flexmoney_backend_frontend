@@ -11,13 +11,16 @@ Part 1: Backend Setup
 
    ```bash
    npm i
+   
 3. Start the backend server
 
    ```bash
    node server.js
+   
 4. Send a POST request to http://localhost:3001/enroll with the following JSON payload:
 
 5. Alternatively, for the hosted backend, send the POST request to:
+   
    ```bash
    https://flexmoney-backend-ty9r.onrender.com/health/enroll
 
