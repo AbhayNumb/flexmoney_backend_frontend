@@ -7,15 +7,19 @@ Part 1: Backend Setup
 
    ```bash
    cd backend
-Install dependencies:
-  npm i
-Start the backend server
-  node server.js
-Send a POST request to http://localhost:3001/enroll with the following JSON payload:
+2. Install dependencies:
 
-Alternatively, for the hosted backend, send the POST request to:
+   ```bash
+   npm i
+3. Start the backend server
 
-https://flexmoney-backend-ty9r.onrender.com/health/enroll
+   ```bash
+   node server.js
+4. Send a POST request to http://localhost:3001/enroll with the following JSON payload:
+
+5. Alternatively, for the hosted backend, send the POST request to:
+   ```bash
+   https://flexmoney-backend-ty9r.onrender.com/health/enroll
 Part 2: Frontend Setup
 ## Frontend Setup
 
