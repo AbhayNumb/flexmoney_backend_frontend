@@ -52,6 +52,20 @@ YouTube Demo: [FlexMoney Enrollment System Demo](https://www.youtube.com/watch?v
 
 ### User Table
 
+```
+CREATE TABLE user_table (
+  user_id SERIAL PRIMARY KEY,
+  name VARCHAR(255) NOT NULL,
+  mobile_number VARCHAR(15) NOT NULL,
+  age INT NOT NULL,
+  batch VARCHAR(20) NOT NULL,
+  month VARCHAR(20) NOT NULL,
+  year VARCHAR(20) NOT NULL
+);
+```
+
+### User Table
+
 ```sql
 CREATE TABLE user_table (
   user_id SERIAL PRIMARY KEY,
@@ -62,4 +76,5 @@ CREATE TABLE user_table (
   month VARCHAR(20) NOT NULL,
   year VARCHAR(20) NOT NULL
 );
+```
 
