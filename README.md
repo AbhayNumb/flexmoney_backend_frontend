@@ -1,25 +1,47 @@
-For the backend part 
-goto into backend folder 
-and type npm i and then node server.js 
-here you can send the post request at http://localhost:3001/enroll and in body send send this 
-{
-  name: "John Doe",
-  mobile_number: "1234567890",
-  age: 25,
-  batch: "7-8AM",
-  month: 12,
-  year: 2023,
-  paymentAmount: 500,
-};
+Part 1: Backend Setup
+# FlexMoney Enrollment System
 
-I have hosted the backend at render and hence the backend is running at https://flexmoney-backend-ty9r.onrender.com
-so you can rather send the post request at https://flexmoney-backend-ty9r.onrender.com/health/enroll
+## Backend Setup
 
-For frontend goto into yoga folder and type npm i and npm start to start the frontend in frontend i have used the backend deployed link and axios to perform post request after various checks 
-here is the youtube url https://www.youtube.com/watch?v=q8XfsQW4w5o
-and here is the 
+1. Navigate to the `backend` folder:
 
-SQL command for creation of table 
+   ```bash
+   cd backend
+Install dependencies:
+  npm i
+Start the backend server
+  node server.js
+Send a POST request to http://localhost:3001/enroll with the following JSON payload:
+
+Alternatively, for the hosted backend, send the POST request to:
+
+https://flexmoney-backend-ty9r.onrender.com/health/enroll
+Part 2: Frontend Setup
+## Frontend Setup
+
+1. Navigate to the `yoga` folder:
+
+   ```bash
+   cd yoga
+Install frontend dependencies:
+  npm i
+Start the frontend:
+  npm start
+
+The frontend uses the deployed backend link for performing POST requests.
+
+### Part 3: Additional Information
+
+```markdown
+## Additional Information
+
+- YouTube Demo: [FlexMoney Enrollment System Demo](https://www.youtube.com/watch?v=q8XfsQW4w5o)
+Part 4: Database Schema
+## Database Schema
+
+### User Table
+
+```sql
 CREATE TABLE user_table (
   user_id SERIAL PRIMARY KEY,
   name VARCHAR(255) NOT NULL,
@@ -28,14 +50,15 @@ CREATE TABLE user_table (
   batch VARCHAR(20) NOT NULL,
   month VARCHAR(20) NOT NULL,
   year VARCHAR(20) NOT NULL
-  
 );
+Payment Table
 CREATE TABLE payment_table (
   payment_id SERIAL PRIMARY KEY,
   user_id INT REFERENCES user_table(user_id),
   payment_amount DECIMAL(10, 2) NOT NULL,
   payment_date DATE NOT NULL
 );
+Part 5: ER Diagram
+## ER Diagram
+![ER Diagram](https://github.com/AbhayNumb/flexmoney_backend_frontend/assets/90024961/e7116bc3-085b-4e58-af9f-bf8015801f72)
 
-and here is the ER diagram
-![Screenshot 2023-12-17 142805](https://github.com/AbhayNumb/flexmoney_backend_frontend/assets/90024961/e7116bc3-085b-4e58-af9f-bf8015801f72)
