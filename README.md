@@ -1,4 +1,4 @@
-Part 1: Backend Setup
+### Part 1: Backend Setup
 # FlexMoney Enrollment System
 
 ## Backend Setup
@@ -25,7 +25,7 @@ Part 1: Backend Setup
    https://flexmoney-backend-ty9r.onrender.com/health/enroll
 
    
-Part 2: Frontend Setup
+### Part 2: Frontend Setup
 
 ## Frontend Setup
 
@@ -45,12 +45,9 @@ Part 2: Frontend Setup
 4. The frontend uses the deployed backend link for performing POST requests.
 
 ### Part 3: Additional Information
+YouTube Demo: [FlexMoney Enrollment System Demo](https://www.youtube.com/watch?v=q8XfsQW4w5o)
 
-```markdown
-## Additional Information
-
-- YouTube Demo: [FlexMoney Enrollment System Demo](https://www.youtube.com/watch?v=q8XfsQW4w5o)
-Part 4: Database Schema
+### Part 4: Database Schema
 ## Database Schema
 
 ### User Table
