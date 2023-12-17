@@ -39,8 +39,8 @@ Part 2: Frontend Setup
    npm i
 
 3. Start the frontend:
-  ```bash
-  npm start
+   ```bash
+   npm start
 
 4. The frontend uses the deployed backend link for performing POST requests.
 
