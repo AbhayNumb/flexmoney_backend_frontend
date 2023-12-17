@@ -34,7 +34,7 @@ Part 2: Frontend Setup
    ```bash
    cd yoga
 
-2.Install frontend dependencies:
+2. Install frontend dependencies:
    ```bash
    npm i
 
