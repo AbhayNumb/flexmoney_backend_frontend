@@ -52,7 +52,7 @@ YouTube Demo: [FlexMoney Enrollment System Demo](https://www.youtube.com/watch?v
 
 ### User Table
 
-```sql
+```bash
 CREATE TABLE user_table (
   user_id SERIAL PRIMARY KEY,
   name VARCHAR(255) NOT NULL,
@@ -62,6 +62,8 @@ CREATE TABLE user_table (
   month VARCHAR(20) NOT NULL,
   year VARCHAR(20) NOT NULL
 );
+
+### User Table
 Payment Table
 CREATE TABLE payment_table (
   payment_id SERIAL PRIMARY KEY,
