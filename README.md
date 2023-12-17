@@ -20,19 +20,25 @@ Part 1: Backend Setup
 5. Alternatively, for the hosted backend, send the POST request to:
    ```bash
    https://flexmoney-backend-ty9r.onrender.com/health/enroll
+
+   
 Part 2: Frontend Setup
+
 ## Frontend Setup
 
 1. Navigate to the `yoga` folder:
 
    ```bash
    cd yoga
-Install frontend dependencies:
-  npm i
-Start the frontend:
+
+2.Install frontend dependencies:
+   ```bash
+   npm i
+3. Start the frontend:
+  ```bash
   npm start
 
-The frontend uses the deployed backend link for performing POST requests.
+4. The frontend uses the deployed backend link for performing POST requests.
 
 ### Part 3: Additional Information
 
