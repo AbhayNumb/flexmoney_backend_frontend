@@ -77,4 +77,6 @@ CREATE TABLE user_table (
   year VARCHAR(20) NOT NULL
 );
 ```
+### Part 5: ER Diagram
+![Screenshot 2023-12-17 142805](https://github.com/AbhayNumb/flexmoney_backend_frontend/assets/90024961/00128e11-45f9-42dd-83d4-59d8e2a9948f)
 
