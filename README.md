@@ -16,7 +16,7 @@ Part 1: Backend Setup
 
    ```bash
    node server.js
-   
+
 4. Send a POST request to http://localhost:3001/enroll with the following JSON payload:
 
 5. Alternatively, for the hosted backend, send the POST request to:
